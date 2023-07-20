@@ -1,11 +1,11 @@
 ﻿using System;
 namespace Lab6
 {
-	class Frog : Animal
+	public class Frog : Animal, IBreathe
 	{
-		public Frog(string Sound)
+		public Frog()
 		{
-            Console.WriteLine(Sound);
+            Console.WriteLine("Ribbit!!!!!");
 		}
         public override void Move()
         {
@@ -14,6 +14,14 @@ namespace Lab6
         public override void Sleep()
         {
             Console.WriteLine("Ribbit Ribbit Ribbit (Sleep Sounds)");
+        }
+        public void BreatheIn()
+        {
+            Console.WriteLine("Croak Croak (breathing in noises)");
+        }
+        public void BreatheOut()
+        {
+            Console.WriteLine("croack croack (breathing out noises)");
         }
     }
 }

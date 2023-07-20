@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab6
 {
-    abstract class Reptile: Animal
+    public abstract class Reptile: Animal
     {
         string ScaleColor;
         int TailSize;

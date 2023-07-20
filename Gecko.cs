@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab6
 {
-    class Gecko: Reptile
+    public class Gecko: Reptile
     {
        
         public override void Sound()
@@ -14,7 +14,7 @@ namespace Lab6
             Console.WriteLine("Hissssss");
         }
 
-        void SellInsurance()
+        public void SellInsurance()
         {
             Console.WriteLine("15 minutes can save you 15 percent or more on car insurance!!");
         }
