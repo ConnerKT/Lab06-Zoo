@@ -10,7 +10,5 @@ namespace Lab6
     {
         public string FurColor;
 
-       
-
     }
 }
