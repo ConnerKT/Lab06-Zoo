@@ -10,4 +10,5 @@ namespace Lab6
     {
         int GillSize;
     }
+
 }

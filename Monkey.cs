@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab6
 {
-    class Monkey: Mammal
+    public class Monkey: Mammal
     {
         public void ClimbTree()
         {

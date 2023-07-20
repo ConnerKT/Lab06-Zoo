@@ -12,8 +12,8 @@ namespace Lab6
             Godzilla godzilla = new Godzilla();
             godzilla.Sound();
 
-            string noise = "RIBBBBBBBIT";
-            Frog frogger = new Frog(noise);
+           
+            Frog frogger = new Frog();
             frogger.Move();
             frogger.Sleep();
 
